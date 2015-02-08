@@ -1,0 +1,21 @@
+venv
+.idea
+*.pyc
+nosetests.xml
+*_local.py
+build
+dist
+budget.egg-info
+data/*
+logs/*
+supervisord.pid
+.ropeproject
+.zone
+.vagrant/*
+.dev
+
+!**/.gitkeep
+
+## don't commit local config override files
+config_local.py
+episodes.dump
