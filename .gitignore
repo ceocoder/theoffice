@@ -19,3 +19,4 @@ supervisord.pid
 ## don't commit local config override files
 config_local.py
 episodes.dump
+theoffice.json
